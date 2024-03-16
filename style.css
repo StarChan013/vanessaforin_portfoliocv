@@ -1,8 +1,8 @@
 /* Importando folhas de estilo externas */
-@import url('https://github.com/StarChan013/vanessaforin_portfoliocv/blob/main/styles/index.css');
-@import url('https://github.com/StarChan013/vanessaforin_portfoliocv/blob/main/styles/educacao.css');
-@import url('https://github.com/StarChan013/vanessaforin_portfoliocv/blob/main/styles/portfolio.css');
-@import url('https://github.com/StarChan013/vanessaforin_portfoliocv/blob/main/styles/contato.css');
+@import url('/styles/index.css');
+@import url('/styles/educacao.css');
+@import url('/styles/portfolio.css');
+@import url('/styles/contato.css');
 
 
 /* Definindo variáveis CSS personalizadas */
