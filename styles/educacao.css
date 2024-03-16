@@ -1,0 +1,77 @@
+.principal__educacao__formacao {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--therdiary-color);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+
+.formacao__titulo, .cursos__titulos {
+    font-size: 2rem;
+    color: var(--text-color);
+    margin-bottom: 1rem;
+    font-family: var(--primary-font);
+    font-weight: 800;
+    text-decoration: underline;
+}
+
+.formacao__lista__item {
+    margin: 1rem 0;
+    font-size: 1rem;
+    color: var(--text-color);
+    font-family: var(--primary-font);
+    font-weight: 400;
+}
+
+.principal__educacao__cursos {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: var(--therdiary-color);
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+}
+
+.cursos__quadros{
+    display: flex;
+    justify-content: space-around;
+}
+
+.cursos__quadros__lista {
+    background-image: linear-gradient(var(--primary-color), var(--background-color));
+    padding: 1.5rem 1rem;
+    margin: 0 1rem;
+    width: 22rem;
+    border-radius: 20px;
+}
+
+.cursos__quadros__titulo {
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: var(--primary-font);
+    font-weight: 600;
+    padding-bottom: 1rem;
+    color: var(--therdiary-color);
+}
+
+.quadros__lista__item {
+    font-size: 1rem;
+    font-family: var(--primary-font);
+    font-weight: 400;
+    color: var(--therdiary-color);
+    text-align: initial;
+    margin: 1rem 0 1rem 0;
+}
+
+.cursos__quadros__lista li {
+    list-style: circle outside; /* Define o estilo do marcador de lista como círculo fora do conteúdo */
+    margin-left: 1.5rem; /* Define a margem à esquerda dos itens da lista */
+}
+
+

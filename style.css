@@ -1,0 +1,30 @@
+/* Importando folhas de estilo externas */
+@import url('/styles/index.css');
+@import url('/styles/educacao.css');
+@import url('/styles/portfolio.css');
+@import url('styles/contato.css');
+
+/* Definindo variáveis CSS personalizadas */
+:root {
+    /* COLORS */
+    --background-color: #fec7d7;
+    --primary-color: #8546f0;
+    --secondary-color: #d9d4e7;
+    --therdiary-color: #f9f8fc;
+    --text-color: #0e172c;
+
+    /*FONTES*/
+    --primary-font: 'Montserrat', sans-serif;
+    --secondary-font: 'Parisienne', static;
+}
+
+html{
+    height: 100vh;
+    background-image: linear-gradient(var(--background-color), var(--secondary-color));
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+main {
+    margin: 0 8rem;
+}
